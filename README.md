@@ -5,8 +5,7 @@ It accepts one to three arguments.
 
 1. A csv file of programs and dates (with labeled headers). This is a required argument.
 2. The number of times to search for a match. This is an optional argument.
-3. A comma-separated string of programs that must be included in the schedule. This is an optional argument
-
+3. A comma-separated string of programs (case-insensitive) that must be included in the schedule. This is an optional argument
 
 You can run it from the command line as follows:
 
