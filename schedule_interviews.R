@@ -2,8 +2,7 @@
 # Nikhil Bommakanti
 # 9/28/18
 # 
-# This is a naive approach to finding an arrangement which
-# maximizes the number of interviews.
+# This is a naive approach to finding an arrangement which maximizes the number of interviews.
 # 
 # The approach is based on random sampling without replacement. Namely:
 # 1. Randomly select an interview date
@@ -16,8 +15,7 @@
 # ---------
 
 # Load the data.table package
-# Install it if the user does not have it on
-#    his or her system
+# Install it if the user does not have it on his or her system
 if (!require(data.table)) {
     install.packages("data.table")
 }
