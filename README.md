@@ -13,3 +13,5 @@ You can run it from the command line as follows:
 ```{r}
 Rscript schedule_interviews.R program_list.csv 100 "my_favorite_program, another_great_one"
 ```
+
+It will display the results in the console and will also save csv files for the top schedules. By default these files are saved in the current working directory.
