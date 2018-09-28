@@ -19,11 +19,7 @@
 if (!require(data.table)) {
     install.packages("data.table")
 }
-if (!require(stringr)) {
-    install.packages("stringr")
-}
 library(data.table, quietly = TRUE)
-library(stringr, quietly = TRUE)
 
 # Read command line arguments
 args <- commandArgs(trailingOnly = TRUE)
